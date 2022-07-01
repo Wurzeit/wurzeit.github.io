@@ -1,4 +1,5 @@
 import type { FC } from 'react'
+import { Footer } from 'components/pages/home/footer'
 
 export const HomePagePresenter: FC = () => {
   return (
@@ -17,13 +18,7 @@ export const HomePagePresenter: FC = () => {
       <p>
         <a href="https://github.com/wurzeit">Github</a>
       </p>
-      <p>
-        Hosted on Github Pages. Source:{' '}
-        <a href="https://github.com/wurzeit/wurzeit.github.io">
-          wurzeit/wurzeit.github.io
-        </a>
-      </p>
-      <p>&copy; Wurzeit 2022</p>
+      <Footer />
     </>
   )
 }
