@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "deploy": "yarn build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -63,5 +64,6 @@
     "tabWidth": 2,
     "trailingComma": "all",
     "bracketSameLine": true
-  }
+  },
+  "homepage": "https://wurzeit.github.io/wurzeit.github.io/"
 }
