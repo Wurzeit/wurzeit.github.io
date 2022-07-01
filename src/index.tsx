@@ -1,4 +1,14 @@
 import * as ReactDOM from 'react-dom'
 import HomePage from 'pages/home'
+import type { FC } from 'react'
+import { ChakraProvider } from '@chakra-ui/react'
 
-ReactDOM.render(<HomePage />, document.getElementById('root'))
+const Index: FC = () => {
+  return (
+    <ChakraProvider>
+      <HomePage />
+    </ChakraProvider>
+  )
+}
+
+ReactDOM.render(<Index />, document.getElementById('root'))
