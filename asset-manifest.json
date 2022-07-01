@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/wurzeit.github.io/static/js/main.daea3b02.js",
-    "index.html": "/wurzeit.github.io/index.html",
-    "main.daea3b02.js.map": "/wurzeit.github.io/static/js/main.daea3b02.js.map"
+    "main.js": "/static/js/main.daea3b02.js",
+    "index.html": "/index.html",
+    "main.daea3b02.js.map": "/static/js/main.daea3b02.js.map"
   },
   "entrypoints": [
     "static/js/main.daea3b02.js"
