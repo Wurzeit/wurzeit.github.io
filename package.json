@@ -65,5 +65,10 @@
     "trailingComma": "all",
     "bracketSameLine": true
   },
-  "homepage": "https://wurzeit.github.io/wurzeit.github.io/"
+  "homepage": "https://wurzeit.github.io/wurzeit.github.io/",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.opensource.org/licenses/mit-license.php"
+    }]
 }
